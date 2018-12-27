@@ -62,18 +62,6 @@ export class ContactController {
           data: contact
         })
     })
-    // Contact.findOneAndUpdate({_id: req.params.id},{new: true})
-    //   .then((contact:any) =>{
-    //     res.status(200).json({
-    //       msg: 'Update contact',
-    //       data: contact
-    //     })
-    //   })
-    //   .catch((err:any) =>{
-    //     res.status(500).json({
-    //       message: err
-    //     })
-    //   })
   }
 
   public remove(req: Request, res: Response) {
@@ -89,16 +77,5 @@ export class ContactController {
         message: err
       })
     })
-  //   Contact.remove({_id: req.params.id}, (err:any, contact:any)=>{
-  //     if(err){
-  //       res.status(500).json({
-  //         message: err
-  //       })
-  //     }
-  //     res.status(201).json({
-  //       msg: 'Success delete contact',
-  //       data: contact
-  //     })
-  //   })
   }
 } 
