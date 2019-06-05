@@ -24,4 +24,4 @@ class App {
     db.on("error", console.error.bind(console, "MongoDB Connection error"));
   }
 }
-export default new App ().app
+export default new App().app

@@ -1,3 +1,4 @@
+"use strict";
 function greeter(person) {
     return 9;
     // return "Hello, " + person;

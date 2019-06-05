@@ -1,3 +1,4 @@
+"use strict";
 // without interface
 function printLabelOld(labelledObj) {
     return labelledObj.label;
